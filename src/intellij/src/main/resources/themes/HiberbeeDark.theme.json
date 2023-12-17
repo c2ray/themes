@@ -18,16 +18,20 @@
     "dark11": "#5A5A5A",
     "dark12": "#434241",
     "accent": "#78DCE8",
+    "gray": "#666666",
     "green": "#92D923",
     "greenDark": "#92D923CC",
     "blueDark": "#253047CC",
     "blue": "#409cff",
     "red": "#ff5454",
+    "red2": "#3A262A",
+    "red3": "#800040",
+    "red4": "#5C2D2D",
     "redDark": "#320f0f",
     "yellow": "#ffb900",
     "yellowLight": "#f5d277",
     "yellowDark": "#ffb900a0",
-    "redBg": "#320f0f",
+    "redBg": "#743A3A",
     "violetBg": "#302030",
     "orangeBg": "#403018",
     "yellowBg": "#3B3B19",
@@ -83,8 +87,8 @@
     "ActionButton": {
       "hoverBorderColor": "dark10",
       "separatorColor": "dark10",
-      "pressedBackground": "dark4",
-      "pressedBorderColor": "dark7"
+      "pressedBackground": "black1",
+      "pressedBorderColor": "gray"
     },
     "Borders": {
       "ContrastBorderColor": "dark10",
@@ -211,10 +215,11 @@
       "background": "dark5"
     },
     "EditorTabs": {
-      "inactiveUnderlineColor": "dark10",
+      "inactiveUnderlineColor": "yellow",
       "borderColor": "dark10",
       "background": "dark6",
-      "underlinedTabForeground": "yellow"
+      "underlinedTabForeground": "yellow",
+      "underlinedTabBackground": "dark5"
     },
     "FileColor": {
       "Gray": "dark8",
@@ -283,7 +288,7 @@
     "List.Button.separatorColor": "dark6",
     "MemoryIndicator": {
       "allocatedBackground": "dark7",
-      "usedBackground": "redBg"
+      "usedBackground": "red4"
     },
     "Menu": {
       "Selection.arc": 0,
@@ -319,7 +324,7 @@
         "foreground": "light10"
       },
       "linkForeground": "accent",
-      "errorBackground": "redBg",
+      "errorBackground": "red2",
       "MoreButton.foreground": "blue",
       "errorForeground": "light8",
       "foreground": "light8"
@@ -509,15 +514,15 @@
     },
     "Table": {
       "alternativeRowBackground": "dark6",
-      "background": "dark7",
+      "background": "dark5",
       "dropLineColor": "dark10",
       "dropLineShortColor": "dark10",
-      "focusCellBackground": "dark4",
+      "focusCellBackground": "black1",
       "focusCellForeground": "yellow",
       "gridColor": "dark9",
       "lightSelectionBackground": "dark8",
       "sortIconColor": "yellow",
-      "selectionBackground": "dark4",
+      "selectionBackground": "blue1",
       "stripeColor": "dark9"
     },
     "TableHeader": {
@@ -661,6 +666,7 @@
     "SearchField.errorForeground": "red",
     "Label.errorForeground": "red",
     "Label.selectedForeground": "yellow",
-    "Label.successForeground": "green"
+    "Label.successForeground": "green",
+    "Notification.errorBorderColor": "redBg"
   }
 }
