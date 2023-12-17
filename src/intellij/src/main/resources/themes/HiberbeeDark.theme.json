@@ -25,7 +25,7 @@
     "blue": "#409cff",
     "red": "#ff5454",
     "red2": "#3A262A",
-    "red3": "#800040",
+    "red3": "#E06C75",
     "red4": "#5C2D2D",
     "redDark": "#320f0f",
     "yellow": "#ffb900",
@@ -62,7 +62,7 @@
       "foreground": "light7",
       "headerBackground": "dark5",
       "hoverBackground": "dark5",
-      "inactiveBackground": "dark8",
+      "inactiveBackground": "#434241",
       "inactiveForeground": "light4",
       "infoForeground": "light3",
       "lineSeparatorColor": "dark9",
@@ -135,7 +135,7 @@
       "disabledForeground": "light2",
       "foreground": "light8",
       "modifiedItemForeground": "yellow",
-      "nonEditableBackground": "dark8"
+      "nonEditableBackground": "dark5"
     },
     "CompletionPopup": {
       "Advertiser": {
@@ -175,13 +175,13 @@
     },
     "Debugger": {
       "Variables": {
-        "changedValueForeground": "yellow",
-        "typeForeground": "blue",
-        "valueForeground": "light10",
+        "changedValueForeground": "red3",
+        "typeForeground": "#848F95",
+        "valueForeground": "red3",
         "exceptionForeground": "red",
         "evaluatingExpressionForeground": "green"
       },
-      "EvaluateExpression.background": "dark8"
+      "EvaluateExpression.background": "dark5"
     },
     "DebuggerTabs": {
       "underlineHeight": 1
@@ -277,13 +277,13 @@
     },
     "List": {
       "Button.leftRightInset": 1,
-      "background": "dark5",
-      "hoverInactiveBackground": "dark6",
+      "background": "dark4",
+      "hoverInactiveBackground": "blue1",
       "hoverBackground": "dark5",
       "selectionBackground": "blue1",
       "Button.separatorColor": "dark6",
       "Button.separatorInset": 0,
-      "selectionInactiveBackground": "dark5"
+      "selectionInactiveBackground": "blue1"
     },
     "List.Button.separatorColor": "dark6",
     "MemoryIndicator": {
@@ -358,10 +358,10 @@
         "updateBackground": "#134D80"
       },
       "SearchField": {
-        "background": "dark8"
+        "background": "dark12"
       },
       "SectionHeader": {
-        "background": "dark12",
+        "background": "dark8",
         "foreground": "light4"
       },
       "Tab": {
@@ -585,7 +585,7 @@
       "Header": {
         "padding": "0,1,0,1",
         "background": "dark4",
-        "inactiveBackground": "dark5"
+        "inactiveBackground": "dark4"
       },
       "HeaderTab": {
         "padding": "0,0,0,0",
@@ -661,7 +661,7 @@
       "separatorColor": "dark8"
     },
     "SearchOption.selectedBackground": "blue1",
-    "Panel.background": "#333231",
+    "Panel.background": "dark5",
     "SearchEverywhere.Advertiser.borderInsets": true,
     "SearchField.errorForeground": "red",
     "Label.errorForeground": "red",
